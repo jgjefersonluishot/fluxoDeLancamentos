@@ -10,12 +10,33 @@
     <div class="container mt-4">
         <h2 class="text-center mb-4">Simulador de Fluxo de Lançamento de Imóveis</h2>
             <form id="formSimulador" class="row g-3">
-
-
-
-
-
-
+                <div class="col-md-6">
+                    <label class="form-labell">Valor do Imóvel (R$)</label>
+                    <input type="number" step="0.01" class="form-control" id="valorImovel" required>     
+                </div>
+                <div class="col-md-6">
+                    <label class="form-labell">% do Ato</label>
+                    <input type="number" step="0.01" class="form-control" id="percentAto" required>     
+                </div>
+                <div class="col-md-6">
+                    <label class="form-labell">% das Parcelas</label>
+                    <input type="number" step="0.01" class="form-control" id="percentParcelas" required>     
+                </div>
+                <div class="col-md-6">
+                    <label class="form-labell">Quantidade de Parcelas</label>
+                    <input type="number" step="0.01" class="form-control" id="qtdParcelas" required>     
+                </div>
+                <div class="col-md-6">
+                    <label class="form-labell">% dos Reforços</label>
+                    <input type="number" step="0.01" class="form-control" id="percetRefocos" required>     
+                </div>
+                <div class="col-md-6">
+                    <label class="form-labell">Quantidade dos Reforços</label>
+                    <input type="number" step="0.01" class="form-control" id="qtdRefocos" required>     
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary"w-100>Calcular</button>
+                </div>
             </form>
     </div>
     
