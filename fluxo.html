@@ -70,6 +70,27 @@
             </div>
     </div>
     <script>
+        let chart; // variavel global para atualizar o gráfico
+
+        document.getElementById("formSimulador").addEventListener("submit", function(e){
+            e.preventDefault();
+
+            // Entrada de dados
+            const valorImovel = parseFloat(document.getElementById("valorImovel").value);
+            const percentAto = parseFloat(document.getElementById("percentAto").value) / 100;
+            const divisaoAlto = document.getElementById("divisaoAlto").value.split("+").map(number);
+            const parcentParcelas = parseFloat(document.getElementById("percentParcelas").value)/100;
+            const qtdParcelas = parseInt(document.getElementById("qtdParcelas").value);
+            const percetRefocos = parseFloat(document.getElementById("percentReforcos").value)/100;
+            const qtdRefocos = parseInt(document.getElementById("qtdReforcos").value);
+
+            
+
+
+
+
+
+        }
 
 
 
